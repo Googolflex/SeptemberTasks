@@ -1,3 +1,10 @@
+mkdir users
+mkdir groups
+mkdir subjects
 touch user{1..207}.txt
 touch group{1..69}.txt
 touch subject{1..50}.txt
+touch commands_logs.txt
+vim commands_logs.txt
+
+и cd конечно же

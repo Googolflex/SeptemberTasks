@@ -1,0 +1,22 @@
+mkdir example
+mkdir home
+touch example{0..204}.txt
+mkdir user1
+mkdir user2
+mkdir user3
+mkdir user4
+mkdir user5
+mkdir files
+touch file{1..30}.txt
+mkdir photos
+touch photo{0..179}.txt
+mkdir videos
+touch video{0..29}.txt
+cp -r user1/. user2
+cp -r user1/. user3
+cp -r user1/. user4
+cp -r user1/. user5
+touch commands_logs.txt
+vim commands_logs.txt
+
+и cd конечно же
